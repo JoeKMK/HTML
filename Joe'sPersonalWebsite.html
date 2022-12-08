@@ -2,58 +2,246 @@
 <html lang="en">
 
     <head>
+        <!-- the head section is only displayed on the tab bar-->
         <meta charset="UTF-8">
-
+        <!--tab title-->
         <title>Joe's Personal Website</title>
     </head>
 
-    <body>
-        <img src="C:\Users\kyawm\source\HTML\SatelliteImages\blue hexagonal.jpg" alt="Joe's Picture" width="800" height="500">
-        <h1> Joe (Kyaw Myo Khing) </h1>
-        <p> <em>I am a student at <strong> TAFE </strong> studying Web Development.</em> </p> 
+    <body align="center">
+        <!--CSS-->
+        <style>
+            body {
+                background-image: url("https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                color: white;
+                font-size: 2rem;
+                text-align: center;
+                padding-top: 5rem;
+            }
+    </style>
+      <!--  <img src="C:\Users\kyawm\source\HTML\SatelliteImages\blue hexagonal.jpg" alt="Joe's Picture" width="800"
+            height="300"> -->
+
+        <h1> Joey </h1>
+        <p> <em>I am a student at <strong> TAFE </strong> studying Web Development.</em> </p>
         <!-- italicized using emphasis tag instead of <i></i> tag-->
-        <P>
-            <strong> My Hobbies </strong>
-
-            <ul> <!-- unordered list (bullet points)-->
-                
-                <li> <a href="https://www.leagueoflegends.com/en-au/"> Playing Video Games </a> </li> <!--list item tag-->
-                <li><a href="https://www.youtube.com/"> Watching Movies</a> </li>
-                <li> <a href="https://archive.org/"> Reading Books </a> </li>
-            </ul>
-        </P>
+        <h3> <mark> <strong><u> My Hobbies </u></strong> </mark></h3>
+            <!-- unordered list (bullet points)-->
+            <!--<p> is list item tag-->
+            <p> <a href="https://www.leagueoflegends.com/en-au/"> Playing Video Games </a> </p>
+            <p><a href="https://www.youtube.com/"> Watching Movies</a> </p>
+            <p> <a href="https://archive.org/"> Reading Books </a> </p>
         <hr>
+        <h3><mark><u> Past Studies </u></mark></h3>
 
-         <h3> Past Studies</h3>
+                <table cellspacing="40" , align="center">
+                    <tr>
+                        <th>Language</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>Software Testing</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Java for dummies</td>
+                        <td>⭐⭐</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Python</td>
+                        <td>⭐</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Java</td>
+                        <td>⭐</td>
+                    </tr>
+    
+                    <tr>
+                        <td>HTML</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                </table>
+            
+            <hr>
 
-         <ul>
+            <h3><mark><u> My Favourite Websites </u></mark></h3>
+            <p>
+                <a href="SatelliteWebPages/MyFavouriteWebsite.html"> Click here to see My Favourite Websites </a>
+            </p>
+            <hr>
 
-          <li> Software Testing (hands on course)</li>
-          <li> Java for dummies </li>
+            <h3 align="center"><mark><u> Stars </u></mark></h3>
 
-        </ul>
-        <h3> My Favourite Websites </h3>
-        <p>
-            <a href="SatelliteWebPages/MyFavouriteWebsite.html"> Click here to see My Favourite Websites </a>
-        </p>
-        <table border="1">
-            <!--there are no table columns-->
-            <tr>
-                <th> Course </th>
-                <th> Grade </th>
-            </tr>
-            <tr>
-                <td> Web Development </td>
-                <td> A </td>
-            </tr>
-            <tr>
-                <td> Software Testing </td>
-                <td> A </td>
-            </tr>
-            <tr>
-                <td> Java for Dummies </td>
-                <td> A </td>
-            </tr>
+            <table border="2" , cellspacing="40" , align="center", bgcolor="blue">
+                <!--there are no table columns-->
+                <tr>
+                    <th> Course </th>
+                    <th> Grade</th>
+                </tr>
+                <tr>
+                    <td> Web Development </td>
+                    <td> ⭐ </td>
+                </tr>
+                <tr>
+                    <td> Software Testing </td>
+                    <td> ⭐⭐ </td>
+                </tr>
+                <tr>
+                    <td> Java for Dummies </td>
+                    <td> ⭐⭐ </td>
+                </tr>
+                <tr>
+                    <td> Python </td>
+                    <td> ⭐ </td>
+                </tr>
+                <tr>
+                    <td> C# </td>
+                    <td> ⭐ </td>
+                </tr>
+            </table>
+            <hr>
+
+            <h3><u><mark> Learning tags <br></mark> </u></h3>
+
+            <h3> Inline Elements</h3>
+            <p>All inline elements can be placed within the body element.</p>
+            <p><a href="http://">a link</a></p>
+            <p> <img src="beast.png" width="25" /> An image</p>
+            <p><span> an inline container span tag</span></p>
+
+            <p>Subscript = H<sub>2</sub>O </p>
+            <p> <s> Strike through text </s> </p>
+            <p> <small> Small text </small> </p>
+            <p>superscript = <sup>x<sup>2</sup></sup> </p>
+            <p> <u> Underline text </u> </p>
+            <p> <var> var = variable </var> </p>
+            <p> <b> bold text </b> </p>
+            <p> <i> italicized text </i> </p>
+            <p> <strong> strong text </strong> </p>
+            <p> <em> emphasized text </em> </p>
+            <p> <mark> marked text </mark> </p>
+            <p> <del> deleted text </del> </p>
+            <p> <ins> inserted text </ins> </p>
+            <p>
+            <address> address </address>
+            </p>
+            <p> <abbr> abbr </abbr> </p>
+            <p>
+            <blockquote> blockquote </blockquote>
+            </p>
+            <p> <cite> cite </cite> </p>
+            <p> <code> code format </code> </p>
+            <p> <dfn> dfn </dfn> </p>
+            <p> <kbd> kbd </kbd> </p>
+            <p>
+            <pre> pre </pre>
+            </p>
+            <p> <samp> samp </samp> </p>
+            <p> <time> time tag for date</time> </p>
+            <p> <q> q tag for inline quotation </q> </p>
+            <p> For audio
+                <audio controls="controls">
+                    <source="t-rex-roar.mp3" type="audio/mpeg">
+                        <a href="t-rex-roar.mp3">Download MP3</a>
+                </audio>
+            </p>
+            <p> For video
+                <video controls="controls">
+                    <source="t-rex-roar.mp4" type="video/mp4">
+                        <a href="t-rex-roar.mp4">Download MP4</a>
+                </video>
+            </p>
+            <hr>
+            <h3> <mark><u> Block Elements </u></mark> </h3>
+            <p>"Block elements," takes up the entire width of a webpage.
+                They also take up a full line of a webpage; they do not fit together side-by-side.
+                Instead, they stack like paragraphs in an essay or toy blocks in a tower.
+                <br> Block elements are as follows.
+            </p>
+            <p> P tag for Paragraphs</p>
+            <p>
+            <blockquote> blockquote tag</blockquote>
+            </p>
+            <p>
+            <details>
+                <summary>Details tag for more info</summary>
+                <p>Inline elements</p>
+                <p>Block elements</p>
+            </details>
+            </p>
+            <p>
+            <div> div tag for division</div>
+            </p>
+
+            <p> ul tag for unordered list</p>
+            <p> ol tag for ordered list</p>
+            <p>dl tag for definition list eg.
+            <dl>
+                <dt> Eating</dt>
+                <dd> An act of chewing and swallowing food</dd>
+                <dt>Drinking</dt>
+                <dd>An act of drinking a liquid</dd>
+            </dl>
+            </p>
+            <p>
+            <fieldset> fieldset tag for grouping form elements</fieldset>
+            </p>
+            <p>
+            <form> form tag for user input</form>
+            </p>
+            <p> h1 to h6 tags for headings </p>
+            <p>
+                <hr> hr tag for horizontal rule
+            </p>
+            <hr>
+            <!-- 
+            Semantic Elements
+        A semantic element clearly describes its meaning to both the browser and the developer.
+        Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+        Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+        -->
+            <p>(Learning section Element)</p>
+
+            <section>
+                <h1>WWF</h1>
+                <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+                    conservation, research and restoration of the environment, formerly named the World Wildlife Fund.
+                    WWF
+                    was founded in 1961.</p>
+            </section>
+
+            <section>
+                <h1>WWF's Panda symbol</h1>
+                <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda
+                    named
+                    Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the
+                    establishment of WWF.</p>
+            </section>
+            <hr>
+            <pre> The Pre tag (preformatted text) gets displayed "exactly" as it's written and <br>it preserves both spaces and line breaks. eg.Poems
+
+        "Confession"
+        To say the truth
+        I never hate you
+        For a dream
+        I make up my mind
+        A heart to sacrifice
+        I wasn't wrong
+        Comforting myself
+        Again and again
+        I keep forever
+        My love pure
+
+      </pre>
+            <p><a href="C:\Users\kyawm\source\HTML\Joe'sPersonalWebsite2.html">For more</a></p>
+
+
     </body>
 
 </html>

@@ -1,18 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--use the same frameworks and barebones in all your projects-->
+    <!--use the same frameworks and barebones in all your projects-->
+
     <head>
         <meta charset="UTF-8">
         <title>VS Code Shortcuts</title>
     </head>
 
     <body>
+        <style>
+            body {
+                background-image: url("https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                color: white;
+                font-size: 2rem;
+                text-align: center;
+                padding-top: 5rem;
+            }
+    </style>
         <h1>VS Code Shortcuts</h1>
+        <p>Ctrl+P = Open File</p>
         <p> Shift+ALt+F = Indent all code</p>
         <p> Ctrl+Shift+P = Open Command Palette</p>
         <p> Ctrl+Shift+M = Open Markdown Preview</p>
+        <p> Alt + W = html tag wrap</p>
+        <p><mark> Ctrl+Shift+L = Select all instances of current selection</mark></p>
+        <p> Ctrl+Shift+K = Delete line</p>
+        <p> Ctrl+Shift+E = Open Explorer</p>
+        <p> Ctrl+Shift+C = Open Powershell</p>
+        <p> Ctrl+Shift+X = Open Extensions</p>
+        <p> Ctrl+Shift+D = Open Debug</p>
+        <p> Ctrl+Shift+T= Reopen a closed window</p>
+        <p> Ctrl+Shift+H = Replace all instances of current selection</p>
+        <p> Ctrl+Shift+G = Open Git</p>
+        <p> Ctrl+Shift+F = Open Search</p>
+        <p> Ctrl+Shift+S = Save As </p>
+        <p> Ctrl+Shift+O = Open File</p>
+        <p> Ctrl+Shift+N = New Window</p>
+        <p> Ctrl+Shift+M = Open Markdown Preview</p>
+        <p>Select characters to the left= Shift+Left Arrow</p>
+        <p>Select characters to the right= Shift+Right Arrow</p>
+        <p>Select lines up= Shift+Up Arrow</p>
+        <p>Select lines down= Shift+Down Arrow</p>
+        <p>Select to beginning of line= Shift+Home</p>
+        <p>Select to end of line= Shift+End</p>
+        <p>Select to beginning of document= Shift+Ctrl+Home</p>
+        <p>Select to end of document= Shift+Ctrl+End</p>
+        <p>Select to beginning of next word= Shift+Ctrl+Right Arrow</p>
+        <p>Select to beginning of previous word= Shift+Ctrl+Left Arrow</p>
+        <p>Select to beginning of next paragraph= Shift+Ctrl+Down Arrow</p>
+        <p>Select to beginning of previous paragraph= Shift+Ctrl+Up Arrow</p>
+        <p>Move cursor to beginning of line= Home</p>
+        <p>Move cursor to end of line= End</p>
+        <p>Move cursor to beginning of document= Ctrl+Home</p>
+        <p>Move cursor to end of document= Ctrl+End</p>
+        <p>Move cursor to beginning of next word= Ctrl+Right Arrow</p>
+        <p>Move cursor to beginning of previous word= Ctrl+Left Arrow</p>
+        <p>Move cursor to beginning of next paragraph= Ctrl+Down Arrow</p>
+        <p>Move cursor to beginning of previous paragraph= Ctrl+Up Arrow</p>
+        <p>Move cursor to beginning of next line= Alt+Down Arrow</p>
+        <p>Move cursor to beginning of previous line= Alt+Up Arrow</p>
+        <p>Move cursor to beginning of next word= Alt+Right Arrow</p>
+        <p>Move cursor to beginning of previous word= Alt+Left Arrow</p>
+        <p>Delete words to the right= Ctrl+Del</p>
+        <p>Delete words to the left= Ctrl+Backspace</p>
+        <p>Delete lines up= Ctrl+Shift+Del</p>
+        <p>Delete lines down= Ctrl+Shift+Backspace</p>
+
+        <h1> Other Shortcuts</h1>
+        <p><mark>Ctrl + D = Add bookmark for current page</mark> </p>
+        <p>Ctrl + Shift + T = Reopen last closed tab</p>
+        <p>Ctrl + Shift + N = Open new window</p>
+        <p><mark> Shift+Click= Select till wherever you click</mark></p>
+        
 
 
+
+
+
+
+
+        <!-- 
+            Tags
+            <em> <strong> <u> <mark> <b> <i> <s> <sub> <sup> <small> <abbr> <q> <cite> <dfn> <ins> <del> <code> <samp> <kbd> <var> <bdo> <span> <br>
+            <wbr> <img> <object> <map> <iframe> <embed> <param> <video> <audio> <source> <track> <canvas> <svg> </svg>
+        -->
+
+
+        <!--
+C:\Users\kyawm\source\HTML\.vscode\settings.json
+To stop VSC from trying to link to the Git repo, in VSC: File -> Preferences -> Settings, paste this into the settings.json:
+
+"git.enabled": false
+
+-->
+        <!--💻 GitSheet
+
+A dead simple git cheatsheet. Follow @tiivik for updates!
+
+Branches. 		
+git branch 	List all local branches. 	
+git branch -a 	List remote and local branches. 	
+git checkout -b branch_name 	Create a local branch and switch to it. 	
+git checkout branch_name 	Switch to an existing branch. 	
+git push origin branch_name 	Push branch to remote. 	
+git branch -m new_name 	Rename current branch. 	
+git branch -d branch_name 	Delete a local branch. 	
+git push origin :branch_name 	Delete a remote branch.
+
+Logs. 		
+git log --oneline 	Show commit history in single lines. 	
+git log -2 	Show commit history for last N commits. 	
+git log -p -2 	Show commit history for last N commits with diff. 	
+git diff 	Show all local file changes in the working tree. 	
+git diff myfile 	Show changes made to a file. 	
+git blame myfile 	Show who changed what & when in a file. 	
+git remote show origin 	Show remote branches and their mapping to local.
+
+Cleanup. 		
+git clean -f 	Delete all untracked files. 	
+git clean -df 	Delete all untracked files and directories. 	
+git checkout -- . 	Undo local modifications to all files. 	
+git reset HEAD myfile 	Unstage a file. 
+
+Tags. 		
+git pull --tags 	Get remote tags. 	
+git checkout tag_name 	Switch to an existing tag. 	
+git tag 	List all tags. 	
+git tag -a tag_name -m "tag message" 	Create a new tag. 	
+git push --tags 	Push all tags to remote repo. 
+
+Stashes. 		
+git stash save "stash name" && git stash 	Save changes to a stash. 	
+git stash list 	List all stashes. 	
+git stash pop 	Apply a stash and delete it from stash list.-->
 
 
 

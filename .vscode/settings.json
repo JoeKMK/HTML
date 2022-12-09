@@ -1,4 +1,2 @@
-{
-    "ipynb.experimental.pasteImages.enabled": true,
-    "git.enabled": true
-}
+"ipynb.experimental.pasteImages.enabled": true,
+"git.enabled": false,
